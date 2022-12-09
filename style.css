@@ -1,0 +1,91 @@
+.yellow {
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    background: yellow;
+    padding: 25px;
+    position: relative;
+}
+
+#top {
+    width: 25px;
+    height: 25px;
+    background: darkolivegreen;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+#left-top {
+    width: 25px;
+    height: 25px;
+    background: darkolivegreen;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#right-top {
+    width: 25px;
+    height: 25px;
+    background: darkolivegreen;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#left-middle {
+    width: 25px;
+    height: 25px;
+    background: darkolivegreen;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+#middle {
+    width: 25px;
+    height: 25px;
+    background: darkolivegreen;
+    position: absolute;
+    top: 50%;
+    left:calc(50% - 13px)
+
+}
+
+#right-middle {
+    width: 25px;
+    height: 25px;
+    background: darkolivegreen;
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+}
+
+#left-bottom {
+    width: 25px;
+    height: 25px;
+    background: darkolivegreen;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#right-bottom {
+    width: 25px;
+    height: 25px;
+    background: darkolivegreen;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#bottom {
+    width: 25px;
+    height: 25px;
+    background: darkolivegreen;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
